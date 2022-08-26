@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Andada-Pro&display=swap');
+
+
+:root{
+    --titel-color:#80051D ;
+    --background-titel: #F2F2F2;
+    --border-line:solid #888888 ;
+    --litel-titel-color:#49718D ;
+    --simpel-titel : #7E7E7E;
+
+    --p-color: #424242;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    font-family: Andada Pro;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.contener{
+    margin: 7vw;
+
+}
+
+h1 {
+    color: var(--titel-color);
+    margin:10px ;
+    letter-spacing: 2px;
+
+}
+h2 {
+    justify-content: center;
+    color: var(--titel-color);
+    display: flex;
+    margin: 15px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.first-titel{
+    background-color: var(--background-titel);
+    margin: 2px;
+    padding-left: 5px;
+    padding-top:5px ;
+
+}
+
+.first-titel p {
+    color: #7E7E7E;
+}
+
+hr{
+    border: 2px solid #888888
+}
+
+.first-titel hr {
+    margin-left:-5px ;
+
+    
+}
+
+.litel-titel{
+    background-color: var(--background-titel);
+    margin: 2px;
+    padding-left: 5px;
+    padding-top:5px ;
+
+}
+
+.litel-titel h3 {
+    color: var(--litel-titel-color);
+    justify-content: center;
+    display: flex;
+    padding: 3PX;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+p{
+    color: var(--p-color);
+    font-size: 20px;
+    margin: 0px;
+}
+
+.therd-litel-titel h3{
+ color: #49718D;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+
+.second-title {
+    background-color: var(--background-titel);
+    
+}
+
+.second-title h3 {
+    color:var(--titel-color);
+    justify-content: center;
+    display: flex;
+    padding: 0PX;
+    margin: 0px;
+    letter-spacing:1px;
+    font-size: 25px;
+    margin-top: 15px ;
+   
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
