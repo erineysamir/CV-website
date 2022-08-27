@@ -1,0 +1,161 @@
+h1 {
+    
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #4F5C87;
+    
+    }
+    
+    h2{
+        font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #1A1A1A;
+    
+    }
+    h3{
+        
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    color: #1A1A1A;
+    
+    }
+    h4{font-family: 'Andada Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        
+        color: #1A1A1A;
+        }
+    
+    h5{font-family: 'Andada Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 11.996px;
+        line-height: 14px;
+        text-transform: capitalize;
+        
+        color: #1A1A1A;
+        }
+h6{    
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #1A1A1A; 
+}
+
+    p{
+        font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 132.2%;
+    /* or 12px */
+    
+    text-align: justify;
+    text-transform: capitalize;
+    
+    color: #424242;
+    
+    }
+    
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    .grid :nth-child(2) { 
+        text-align: end;
+    }
+    .color{
+        
+    background: #F1F1F1;
+    }
+
+    .contact{
+        
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+text-transform: capitalize;
+
+color: #90939E;
+
+    }
+
+.titel{
+    
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #1A1A1A;
+
+}
+
+.num{
+    
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 7.67742px;
+line-height: 9px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #424242;
+
+}
+
+.bac{
+    background: #F2F2F2;
+}
+
+.Title{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #3C5D8A;
+    
+}
+
+.line{
+    background-color:#888888 ;
+border: 0.479839px solid #888888;
+}
