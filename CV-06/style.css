@@ -1,0 +1,108 @@
+h1{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #4B5377;
+
+}
+h2{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 840;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #1A1A1A;
+}
+
+
+h3 {
+    font-family: 'Arimo Hebrew Subset';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 11px;
+text-align: center;
+text-decoration-line: underline;
+text-transform: capitalize;
+
+color: #3C5D8A;
+
+}
+
+h4{
+    
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+
+color: #49718D;
+
+}
+
+h5{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #424242;
+}
+
+
+h6{font-family: 'Arimo Hebrew Subset Italic';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    
+    color: #424242;
+    }
+.skels{
+   
+
+background: #D5D9E4;
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+text-transform: capitalize;
+
+color: #1A1A1A;
+}
+
+.line{
+
+background-color:#4B5377 ;
+border: 2.40847px solid #4B5377;
+}
+.grid {
+    display: flex;
+    grid-template-columns: 1fr  1fr  1fr;
+    justify-content: space-between;
+}
+
+.grid :nth-child(2) { 
+    text-align: end;
+}
+
+.small-line{
+    background-color:#3C5D8A ;
+    border: 0.963387px solid #3C5D8A;
+}
