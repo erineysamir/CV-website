@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Andada-Pro&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/tharlon.css);
 
 
 :root{
@@ -21,7 +21,7 @@
 
 
 body {
-    font-family: Andada Pro;
+    font-family: 'Tharlon', sans-serif;
     font-size: 24px;
     line-height: 28px;
     align-items: center;
@@ -40,7 +40,7 @@ body {
     font-family: 'Arimo Hebrew Subset';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 24px;
     line-height: 23px;
     text-align: center;
 
@@ -57,8 +57,9 @@ body {
     align-items: baseline;
     align-content: stretch;
     flex-direction: row;
-    justify-content: space-evenly;
- 
+    justify-content:center;
+    margin: 0px;
+    padding: 0px8;
   }
 
 
@@ -69,9 +70,17 @@ body {
 
   }
   .item {
-    width: 134px;
+    width: 207px;
     height: 24px;   
     margin: 0px -51px;
+  }
+
+  .item-1{
+    width: 207PX;
+    height: 24px;   
+    margin: 0px -51px;
+    color: #49718D  ;
+
   }
 .normk-line{
     border: 1px solid #C2C4C3;
@@ -102,6 +111,11 @@ body {
     letter-spacing: 2px;
     font-size: 25px;
 }
+ h5 {
+    margin: 3px;
+    color:    #49718D;
+}
+
 
 .second-title h3 {
     color: #424242;
@@ -117,4 +131,16 @@ body {
 .flex-spse{
     display: flex;
     justify-content: space-between;
+}
+
+h4 {
+    margin: 15px;
+color: #424242 ;
+   
+}
+
+h3{
+    color:    #49718D;
+
+
 }

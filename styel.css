@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Andada-Pro&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/tharlon.css);
 
 
 :root{
-    --titel-color:#80051D ;
+    --titel-color: #1A1A1A ;
     --background-titel: #F2F2F2;
     --border-line:solid #888888 ;
     --litel-titel-color:#49718D ;
@@ -13,6 +13,7 @@
 }
 
 
+
 *{
     box-sizing: border-box;
     
@@ -20,66 +21,89 @@
 
 
 body {
-    font-family: Andada Pro;
+    font-family: 'Tharlon', sans-serif;
     font-size: 24px;
     line-height: 28px;
     align-items: center;
     justify-content: center;
     margin: 0;
 
+
+
+
+}
+.p{
+    font-size: 9px;
+}
+
+.Full-Name{
+    font-family: 'Arimo Hebrew Subset';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+
+    color:var(--titel-color);
 }
 
 .contener{
     margin: 7vw;
 
 }
-
-h1 {
-    color: var(--titel-color);
-    margin:10px ;
-    letter-spacing: 2px;
-
-}
-h2 {
-    justify-content: center;
-    color: var(--titel-color);
-    display: flex;
-    margin: 15px;
-    letter-spacing: 2px;
-    font-size: 30px;
-}
-.first-titel{
-    background-color: var(--background-titel);
-    margin: 2px;
-    padding-left: 5px;
-    padding-top:5px ;
-
-}
-
-.first-titel p {
-    color: #7E7E7E;
-}
-
-hr{
-    border: 2px solid #888888
-}
-
-.first-titel hr {
-    margin-left:-5px ;
-
+.flex{
     
+    display: flex;
+    align-items: baseline;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content:center;
+    margin: 0px;
+    padding: 0px8;
+  }
+
+
+  .big-line{
+    color: #DFE2E7 ;
+    
+    border: 2px solid #DFE2E7;
+
+  }
+  .item {
+    width: 207px;
+    height: 24px;   
+    margin: 0px -51px;
+  }
+
+  .item-1{
+    width: 207PX;
+    height: 24px;   
+    margin: 0px -51px;
+    color: #49718D  ;
+
+  }
+.normk-line{
+    border: 1px solid #C2C4C3;
+
 }
+
 
 .litel-titel{
-    background-color: var(--background-titel);
+    background: #E1E9F4;
     margin: 2px;
     padding-left: 5px;
     padding-top:5px ;
+
+}
+.second-title{
+    color:  #424242;
+    justify-content: center;
 
 }
 
 .litel-titel h3 {
-    color: var(--litel-titel-color);
+    color: #424242;
+
     justify-content: center;
     display: flex;
     padding: 3PX;
@@ -87,42 +111,29 @@ hr{
     letter-spacing: 2px;
     font-size: 25px;
 }
-p{
-    color: var(--p-color);
-    font-size: 20px;
-    margin: 0px;
+ h5 {
+    margin: 3px;
+    color:    #49718D;
 }
 
-.therd-litel-titel h3{
- color: #49718D;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    font-size: 20px;
-
-}
-
-
-.second-title {
-    background-color: var(--background-titel);
-    
-}
 
 .second-title h3 {
-    color:var(--titel-color);
+    color: #424242;
+
     justify-content: center;
     display: flex;
-    padding: 0PX;
+    padding: 3PX;
     margin: 0px;
-    letter-spacing:1px;
+    letter-spacing: 2px;
     font-size: 25px;
-    margin-top: 15px ;
-   
 }
 
-.flex {
+.flex-spse{
     display: flex;
     justify-content: space-between;
 }
 
+h4 {
+    margin: 15px;
+    color:    #49718D;
+}
