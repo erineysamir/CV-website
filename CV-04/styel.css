@@ -21,9 +21,76 @@ body {
 
 
 }
-.p{
-    font-size: 9px;
+
+.therd-litel-titel{
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 150PX;
+    padding-right: 150PX;
+   
+   }
+
+
+   
+.therd-litel-titel h3{
+
+    display: flex;
+   justify-content: center;
+   font-weight: bold;
+   }
+   
+.therd-litel-titel p{
+
+    display: flex;
+    justify-content: center;
+
+   
+   }
+
+
+h1{
+    color:#1A2549 ;
 }
+
+h2{
+    justify-content: center;
+    color: var(--titel-color);
+    display: flex;
+    margin: 15px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-bottom: 13px;
+  }
+
+h3{
+    color:  #49718D;
+    font-weight: normal;
+
+}
+
+h4 {
+    margin: 15px;
+    color: #49718D;
+    padding-bottom:0px;
+
+    
+   
+}
+
+h5 {
+    margin: 3px;
+    color:   #1A1A1A;
+    
+}
+
+
+.contener{
+    margin: 7vw;
+
+}
+
 
 .Full-Name{
     font-family: 'Arimo Hebrew Subset';
@@ -33,13 +100,9 @@ body {
     line-height: 23px;
     text-align: center;
 
-    color:var(--titel-color);
 }
 
-.contener{
-    margin: 7vw;
 
-}
 .flex{
     
     display: flex;
@@ -50,19 +113,12 @@ body {
     margin: 0px;
     padding: 0px8;
   }
-h2{
-  justify-content: center;
-  color: var(--titel-color);
-  display: flex;
-  margin: 15px;
-  letter-spacing: 2px;
-  font-size: 30px;
-  padding-bottom: 13px;
-}
+
 
   .big-line{
-    color:#84868A ;
-    border: 2px solid #84868A;
+    color:#1A1A1A ;
+    border: 2px solid #1A1A1A;
+    margin: 0px;
 
   }
   .item {
@@ -79,16 +135,16 @@ h2{
 
   }
 .normk-line{
-    border: 2px solid #84868A;
+    border: 1px solid #84868A;
     margin: -1px;
+
 
 
 }
 
 
 .litel-titel{
-    background:  #EDEAE1;
-    margin: 2px;
+    margin: 25px;
     padding-left: 5px;
     padding-top:5px ;
 
@@ -100,7 +156,6 @@ h2{
 }
 
 .litel-titel h3 {
-    color: #424242;
     padding: 10px;
     padding-bottom: 9px;
 
@@ -112,15 +167,9 @@ h2{
     letter-spacing: 2px;
     font-size: 25px;
 }
- h5 {
-    margin: 3px;
-    color:   #1A1A1A;
-    
-}
-
+ 
 
 .second-title h3 {
-    color: #424242;
     
     justify-content: center;
     display: flex;
@@ -140,21 +189,3 @@ h2{
     justify-content: space-around;
 }
 
-h4 {
-    margin: 15px;
-    color: #49718D;
-    padding-bottom: 9px;
-
-    
-   
-}
-
-h3{
-    color:    #49718D;
-
-
-}
-
-h1{
-    color:#1A2549 ;
-}
