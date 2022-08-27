@@ -1,151 +1,120 @@
- Rectangle 1
-
-position: absolute;
-width: 595px;
-height: 838.76px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
+@import url('https://fonts.googleapis.com/css?family=Andada-Pro&display=swap');
 
 
-/* Full Name */
+:root{
+    --titel-color: #1A1A1A ;
+    --background-titel: #F2F2F2;
+    --border-line:solid #888888 ;
+    --litel-titel-color:#49718D ;
+    --simpel-titel : #7E7E7E;
 
+    --p-color: #424242;
 
-position: absolute;
-width: 283.1px;
-height: 23.51px;
-left: 156px;
-top: 44.15px;
-
-font-family: 'Arimo Hebrew Subset';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #1A1A1A;
+}
 
 
 
-/* Line 1 */
+*{
+    box-sizing: border-box;
+    
+}
 
 
-position: absolute;
-width: 525.42px;
-height: 0px;
-left: 34.55px;
-top: 71.5px;
-
-border: 2.87903px solid #DFE2E7;
-
-
-/* Line 3 */
-
-
-position: absolute;
-width: 525.42px;
-height: 0px;
-left: 34.55px;
-top: 259.42px;
-
-border: 2.87903px solid #DFE2E7;
-
-
-/* Line 2 */
-
-
-position: absolute;
-width: 525.42px;
-height: 0px;
-left: 34.55px;
-top: 94.05px;
-
-border: 1.43952px solid #C2C4C3;
-
-
-/* Group 6 */
-
-
-position: absolute;
-width: 400.19px;
-height: 23.99px;
-left: 97.41px;
-top: 97.92px;
+body {
+    font-family: Andada Pro;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 
 
 
-/* Group 5 */
+
+}
+.p{
+    font-size: 9px;
+}
+
+.Full-Name{
+    font-family: 'Arimo Hebrew Subset';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color:var(--titel-color);
+}
+
+.contener{
+    margin: 7vw;
+
+}
+.flex{
+    
+    display: flex;
+    align-items: baseline;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+  }
 
 
-position: absolute;
-width: 373px;
-height: 14px;
-left: 111px;
-top: 75px;
+  .big-line{
+    color: #DFE2E7 ;
+    
+    border: 2px solid #DFE2E7;
+
+  }
+  .item {
+    width: 134px;
+    height: 24px;   
+    margin: 0px -51px;
+  }
+.normk-line{
+    border: 1px solid #C2C4C3;
+
+}
 
 
+.litel-titel{
+    background: #E1E9F4;
+    margin: 2px;
+    padding-left: 5px;
+    padding-top:5px ;
 
-/* Group 10 */
+}
+.second-title{
+    color:  #424242;
+    justify-content: center;
 
+}
 
-position: absolute;
-width: 525.45px;
-height: 121px;
-left: 34.55px;
-top: 119px;
+.litel-titel h3 {
+    color: #424242;
 
+    justify-content: center;
+    display: flex;
+    padding: 3PX;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
 
+.second-title h3 {
+    color: #424242;
 
-/* Professional Experience & Milestones */
+    justify-content: center;
+    display: flex;
+    padding: 3PX;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
 
-
-position: absolute;
-width: 400.19px;
-height: 23.99px;
-left: 94.05px;
-top: 261.73px;
-
-font-family: 'Arimo Hebrew Subset';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 17px;
-text-align: center;
-text-transform: uppercase;
-
-color: #424242;
-
-
-
-/* Group 7 */
-
-
-position: absolute;
-width: 527px;
-height: 157.71px;
-left: 34px;
-top: 301px;
-
-
-
-/* Group 11 */
-
-
-position: absolute;
-width: 527px;
-height: 137.07px;
-left: 34px;
-top: 492px;
-
-
-
-/* Group 12 */
-
-
-position: absolute;
-width: 527px;
-height: 137.07px;
-left: 34px;
-top: 662px;
+.flex-spse{
+    display: flex;
+    justify-content: space-between;
+}
