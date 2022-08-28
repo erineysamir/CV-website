@@ -1,0 +1,166 @@
+h1{font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    background: #DBE5F1;
+    color: #2C2C2C;
+    
+    }
+    .coco{
+        font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 128.2%;
+/* or 12px */
+
+text-align: justify;
+text-transform: capitalize;
+
+color: #16365D;
+
+    }
+
+h2{font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #16365D;
+    
+    }
+h3{font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #9EC9EE;
+    
+    }
+h4{font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    
+    color: #1A1A1A;
+    }
+h5{font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    
+    color: #1A1A1A;
+    }
+    h6{
+        
+font-family: 'Cinzel Decorative';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+
+background: linear-gradient(180deg, #71B5EF 0%, #3A65A0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+    }
+
+
+p{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+    text-align: justify;
+    text-transform: capitalize;
+    
+    color: #424242;
+    }
+.color{
+    width: 100%;
+    height: 48.17px;
+    left: 0px;
+    top: 0px;
+    
+    background: #16365D;}
+
+.contact{
+        
+    
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    display: flex;
+
+        flex-direction: row-reverse;
+
+    color: #888888;
+    
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;    align-items: center;
+
+
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: stretch;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.long{
+    border: 0.963387px solid #C2C4C3;
+transform: rotate(90deg);
+width: 5pc;
+
+}
+.num{
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5606px;
+    line-height: 140%;
+    /* or 16px */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #8DB7DC;
+    }
+
+
+.baco{
+    
+
+background: #16365D;
+}
+.baco ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
